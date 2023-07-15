@@ -6786,3 +6786,11 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2023-07-15 12:36:20,423 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashok\eclipse-workspace\RestAssuredCucumberProject\src\main\resources
 2023-07-15 12:36:20,424 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-07-15 12:36:20,425 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashok\eclipse-workspace\RestAssuredCucumberProject\src\test\resources
+2023-07-15 12:40:05,387 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 12:40:05,387 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashok\eclipse-workspace\RestAssuredCucumberProject\src\main\resources
+2023-07-15 12:40:05,389 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 12:40:05,391 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashok\eclipse-workspace\RestAssuredCucumberProject\src\test\resources
+2023-07-15 12:42:34,070 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 12:42:34,070 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashok\eclipse-workspace\RestAssuredCucumberProject\src\main\resources
+2023-07-15 12:42:34,071 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 12:42:34,072 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashok\eclipse-workspace\RestAssuredCucumberProject\src\test\resources
