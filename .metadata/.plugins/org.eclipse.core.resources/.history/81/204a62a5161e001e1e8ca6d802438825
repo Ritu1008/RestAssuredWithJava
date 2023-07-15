@@ -1,0 +1,21 @@
+package RestAPIXML;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class XMLTest {
+	
+	@Test
+	public void test1() {
+		
+		RestAssured.given()
+					.baseUri("https://chercher.tech/sample/api/books.xml")
+					.when()
+					.get()
+					.then()
+					.log()
+					.body()
+					.statusCode(200);
+
+}

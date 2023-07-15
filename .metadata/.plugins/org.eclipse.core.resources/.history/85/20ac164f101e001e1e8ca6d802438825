@@ -1,0 +1,45 @@
+package RestAPIBDD;
+
+import org.hamcrest.Matcher;
+import org.hamcrest.Matchers;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class GetRequestBDD {
+	
+	@Test
+	public void test1() {
+		
+		RestAssured.given()
+					.baseUri("http://localhost:3000/employees")
+					.when()
+					.get()
+					.then()
+					.log()
+					.body()
+					.statusCode(200);
+					
+		
+	}
+	
+	@Test
+	public void test2() {
+		
+		RestAssured.given()
+					.baseUri("http://localhost:3000/employees")
+					.when()
+					.get("/3")
+					.then()
+					.log()
+					.body()
+					.statusCode(200)
+					.body("name",Matchers.equalTo("Vidhya"));
+
+}
+
+	private void body(String string, Matcher<String> equalTo) {
+		// TODO Auto-generated method stub
+		
+	}
+}
