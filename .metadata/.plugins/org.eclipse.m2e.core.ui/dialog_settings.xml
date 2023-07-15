@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="C:\Users\Ashok\eclipse-workspace\DatabaseProject\src\test\ImportExample.java"/>
 			<item value="C:\Users\Ashok\eclipse-workspace"/>
+			<item value="C:\Users\Ashok\eclipse-workspace\DatabaseProject\src\test\ImportExample.java"/>
 			<item value="C:\Users\Ashok\eclipse-workspace\CucumberProject\src\test\java\features\Calculator.feature"/>
 			<item value="C:\Users\Ashok\eclipse-workspace\SimplilearnMaven\test-output"/>
 			<item value="C:\Users\Ashok\eclipse-workspace\TestNGProject\src"/>
@@ -30,6 +30,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.simplilearn.RestAssuredCucumberProject"/>
 			<item value="com.simplilearn.RestAssuredWithJava"/>
 			<item value="com.simplilearn.Phase3Project"/>
 			<item value="com.simplilearn.Phase2Project"/>
@@ -39,6 +40,7 @@
 			<item value="com.simplilearn"/>
 		</list>
 		<list key="artifactId">
+			<item value="RestAssuredCucumberProject"/>
 			<item value="RestAssuredWithJava"/>
 			<item value="Phase3Project"/>
 			<item value="Phase2Project"/>

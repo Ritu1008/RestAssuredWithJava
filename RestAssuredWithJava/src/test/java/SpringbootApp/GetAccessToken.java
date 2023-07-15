@@ -30,6 +30,9 @@ public class GetAccessToken {
 		
 		//return token;
 		
+		//=================Get Students using oAauth ===========================
+
+		
 		response = RestAssured.given()
 				.baseUri("http://localhost:8088")
 				.auth()
@@ -38,6 +41,9 @@ public class GetAccessToken {
 				.get("/students");
 		
 		System.out.println("Response is " + response.getBody().asString());
+		
+		//===================Get Students using headers =========================
+
 		
 		HashMap<String,Object> headers = new HashMap<String,Object>();
 		headers.put("Authorization", "Bearer " + token );
